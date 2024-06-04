@@ -12,6 +12,8 @@ export class ListaProdutoDTO {
   constructor(
     readonly id: string,
     readonly nome: string,
+    readonly valor: number,
+    readonly quantidade: number,
     readonly caracteristicas: ListaCaracteristicaProdutoDTO[],
     readonly imagens: ListaImagemProdutoDTO[],
   ) {}
